@@ -1,0 +1,2 @@
+# WCG-Training
+Training repo
