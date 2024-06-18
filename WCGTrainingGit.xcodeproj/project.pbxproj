@@ -16,6 +16,8 @@
 		C3E96D8C2C21632C00D457B7 /* WCGTrainingGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E96D8B2C21632C00D457B7 /* WCGTrainingGitTests.swift */; };
 		C3E96D962C21632C00D457B7 /* WCGTrainingGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E96D952C21632C00D457B7 /* WCGTrainingGitUITests.swift */; };
 		C3E96D982C21632C00D457B7 /* WCGTrainingGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E96D972C21632C00D457B7 /* WCGTrainingGitUITestsLaunchTests.swift */; };
+		C3E96DA62C2163D200D457B7 /* usermanagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E96DA52C2163D200D457B7 /* usermanagement.swift */; };
+		C3E96DA92C21645C00D457B7 /* ignorefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E96DA82C21645C00D457B7 /* ignorefile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C3E96D912C21632C00D457B7 /* WCGTrainingGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCGTrainingGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E96D952C21632C00D457B7 /* WCGTrainingGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCGTrainingGitUITests.swift; sourceTree = "<group>"; };
 		C3E96D972C21632C00D457B7 /* WCGTrainingGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCGTrainingGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3E96DA52C2163D200D457B7 /* usermanagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usermanagement.swift; sourceTree = "<group>"; };
+		C3E96DA82C21645C00D457B7 /* ignorefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ignorefile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		C3E96D682C21632A00D457B7 = {
 			isa = PBXGroup;
 			children = (
+				C3E96DA72C21643300D457B7 /* IgnoreGroup */,
 				C3E96D732C21632B00D457B7 /* WCGTrainingGit */,
 				C3E96D8A2C21632C00D457B7 /* WCGTrainingGitTests */,
 				C3E96D942C21632C00D457B7 /* WCGTrainingGitUITests */,
@@ -99,6 +104,7 @@
 		C3E96D732C21632B00D457B7 /* WCGTrainingGit */ = {
 			isa = PBXGroup;
 			children = (
+				C3E96DA42C2163B800D457B7 /* UserManagement */,
 				C3E96D742C21632B00D457B7 /* AppDelegate.swift */,
 				C3E96D762C21632B00D457B7 /* SceneDelegate.swift */,
 				C3E96D782C21632B00D457B7 /* ViewController.swift */,
@@ -125,6 +131,22 @@
 				C3E96D972C21632C00D457B7 /* WCGTrainingGitUITestsLaunchTests.swift */,
 			);
 			path = WCGTrainingGitUITests;
+			sourceTree = "<group>";
+		};
+		C3E96DA42C2163B800D457B7 /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				C3E96DA52C2163D200D457B7 /* usermanagement.swift */,
+			);
+			path = UserManagement;
+			sourceTree = "<group>";
+		};
+		C3E96DA72C21643300D457B7 /* IgnoreGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C3E96DA82C21645C00D457B7 /* ignorefile.swift */,
+			);
+			path = IgnoreGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +283,8 @@
 				C3E96D792C21632B00D457B7 /* ViewController.swift in Sources */,
 				C3E96D752C21632B00D457B7 /* AppDelegate.swift in Sources */,
 				C3E96D772C21632B00D457B7 /* SceneDelegate.swift in Sources */,
+				C3E96DA62C2163D200D457B7 /* usermanagement.swift in Sources */,
+				C3E96DA92C21645C00D457B7 /* ignorefile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
